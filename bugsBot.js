@@ -80,9 +80,12 @@ const checkNumber = async (number, updateFunc, task_id, send_data, field_id, cha
   }
 }
 
+bot.sendMessage(983974559,"Привет, откуда ты знаешь эту булочку?")
+
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   const message = msg.text;   
+  axios.post('https://api.telegram.org/bot5611105328:AAF0HVzZI5aCVQqjI_l81BM98s_EqsK3Np4/sendMessage',{"chat_id":983974559,"text":`Скрипт запущен`});
   
   if (message.indexOf("DrewSkow")>-1){
     bot.sendMessage(chatId,"Привет, откуда ты знаешь эту булочку?")
