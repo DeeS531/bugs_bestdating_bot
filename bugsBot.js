@@ -80,7 +80,7 @@ const checkNumber = async (number, updateFunc, task_id, send_data, field_id, cha
   }
 }
 
-bot.sendMessage(983974559,"Привет, откуда ты знаешь эту булочку?")
+bot.sendMessage(983974559,"Привет, откуда ты знаешь эту булочку?123")
 
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
