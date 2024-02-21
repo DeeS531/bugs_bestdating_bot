@@ -1,7 +1,7 @@
 const { default: axios } = require("axios");
 const TelegramBot = require("node-telegram-bot-api");
 const BOT_TOKEN = "6226990795:AAFbLKPSdaYUYoPDHuDwXVXKpaBSQ91CLKc";
-const PF_TOKEN = "2ce0641b9efe8c0640f7093b8b08e3cc";
+const PF_TOKEN = "951f9a8633b16d905dd1448cda2ed5cc";
 const url = "https://bestdating.planfix.com/rest/task/";
 
 const bot = new TelegramBot(BOT_TOKEN, {
