@@ -132,7 +132,7 @@ bot.on('callback_query', (callbackQuery) => {
     .then(() => {
       waitForAnswer(chatId)
       .then((answer) => {
-        updateTask(splited_data[1], dataTypeLine(36772, answer), chatId, "Спасибо! После поступления суммы на счет вы получите фидбек от Фин. Мендежера");
+        updateTask(splited_data[1], dataTypeLine(36772, answer), chatId, "Спасибо! После поступления суммы на счет вы получите фидбек от Финансового Менеджера");
       }) 
     })
 
@@ -143,7 +143,7 @@ bot.on('callback_query', (callbackQuery) => {
     .then(() => {
       waitForAnswer(chatId)
       .then((answer) => {
-        updateTask(splited_data[1], dataTypeLine(40918, `${"[Пополение отклонено] " + answer}`), chatId, "Принял твой ответ, ожидай фидбека от Фин. Менеджера");
+        updateTask(splited_data[1], dataTypeLine(40918, `${"[Пополение отклонено] " + answer}`), chatId, "Принял ваш ответ, ожидайте фидбека от Финансового Менеджера");
       })
     })
   }
@@ -158,7 +158,7 @@ bot.on('callback_query', (callbackQuery) => {
     .then(() => {
       waitForAnswer(chatId)
       .then((answer) => {
-        updateTask(splited_data[1], dataTypeLine(40918, `${"[Актуальная сумма не утверждена] " + answer}`), chatId, "Спасибо, ожадайти фидбека от Фин. Мендежера");
+        updateTask(splited_data[1], dataTypeLine(40918, `${"[Актуальная сумма не утверждена] " + answer}`), chatId, "Спасибо, ожадайти фидбека от Финансового Менеджера");
       })
     })
   }
