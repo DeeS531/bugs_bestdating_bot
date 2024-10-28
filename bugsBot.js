@@ -122,7 +122,7 @@ bot.on('callback_query', (callbackQuery) => {
   }
 
   if(splited_data[0] == "accept_statistics"){
-    updateTask(splited_data[1], dataTypeLine(40918,"[Со статистикой ознакомился!]" ), chatId, "Спасибо за ответ! Хорошего дня");
+    updateTask(splited_data[1], dataTypeLine(40918,"[Движение между счетами]" ), chatId, "Спасибо! Хорошего дня!");
   }
 
   if(splited_data[0] == "refill_successfully"){
